@@ -1,0 +1,78 @@
+[core]
+	eol = lf
+
+[alias]
+	l = log --pretty=oneline -n 5 --graph --abbrev-commit
+	s = status -s
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+	tl = tag -l
+	bl = branch -a
+	rl = remote -v
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = auto
+
+[color "branch"]
+	current = green bold
+	local = green
+	remote = yellow
+
+[color "diff"]
+	frag = magenta
+	meta = yellow
+	new = green
+	old = red
+
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[commit]
+	gpgsign = true
+
+[diff]
+    algorithm = histogram
+
+[help]
+	autocorrect = true
+
+[log]
+	date = iso8601
+
+[branch]
+    sort = -committerdate
+
+[merge]
+	log = true
+	conflictStyle = zdiff3
+
+[pretty]
+	custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+
+[push]
+	autoSetupRemote = true
+	default = simple
+	followTags = true
+
+[pull]
+    rebase = true
+
+[rebase]
+    autoStash = true
+
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+
+[include]
+	path = ~/.git-user.conf
