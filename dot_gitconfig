@@ -42,7 +42,7 @@
 	gpgsign = true
 
 [diff]
-    algorithm = histogram
+	algorithm = histogram
 
 [help]
 	autocorrect = true
@@ -70,6 +70,9 @@
 
 [rebase]
     autoStash = true
+
+[init]
+	defaultBranch = master
 
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
