@@ -17,6 +17,9 @@ This project makes use of [templating](https://www.chezmoi.io/user-guide/templat
 This can be done within your `~/.config/chezmoi/chezmoi.toml` file where the contents resembles:
 
 ```
+[data.onepass]
+    sshvault = ""
+
 [data.git]
     name = ""
     email = ""
