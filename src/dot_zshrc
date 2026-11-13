@@ -12,6 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # aliases
 alias bu="brew update && brew upgrade"
 alias e="exit"
+alias cat='bat'
 alias ls='lsd'
 alias l='lsd -l'
 alias la='lsd -a'
