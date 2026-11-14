@@ -10,6 +10,7 @@ This project manages the following:
 - ssh config
 - 1Password ssh key vault
 - Tasks via taskfile
+- Claude settings
 
 ### Prerequisites
 
