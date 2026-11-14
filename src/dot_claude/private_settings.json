@@ -1,0 +1,17 @@
+{
+  "agentPushNotifEnabled": true,
+  "attribution": {
+    "sessionUrl": false
+  },
+  "cleanupPeriodDays": 14,
+  "disableBundledSkills": true,
+  "feedbackDrafts": "off",
+  "feedbackSurveyRate": 0,
+  "inputNeededNotifEnabled": true,
+  "permissions": {
+    "defaultMode": "plan"
+  },
+  "promptSuggestionEnabled": false,
+  "remoteControlAtStartup": true,
+  "switchModelsOnFlag": false
+}
