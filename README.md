@@ -9,6 +9,7 @@ This project manages the following:
 - git config
 - ssh config
 - 1Password ssh key vault
+- Tasks via taskfile
 
 ### Prerequisites
 

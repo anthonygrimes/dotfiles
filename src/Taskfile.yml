@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+silent: true
+set: [errexit, nounset, pipefail]
+
+tasks:
+  default:
+    desc: Displays a list of the available tasks for this project
+    cmds:
+      - task --list
+  system-update:
+    aliases: [su]
+    desc: Performs a series of update actions for various system tooling
+    cmds:
+      - '"$HOME/.oh-my-zsh/tools/upgrade.sh"'
+      - brew update && brew upgrade
