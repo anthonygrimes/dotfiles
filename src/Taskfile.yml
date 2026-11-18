@@ -16,3 +16,8 @@ tasks:
     cmds:
       - '"$HOME/.oh-my-zsh/tools/upgrade.sh"'
       - brew update && brew upgrade
+  brew-setup:
+    aliases: [bs]
+    desc: Performs a bundle check and install for Homebrew
+    cmd: brew bundle check --no-upgrade --file=Brewfile || brew bundle install --no-upgrade --file=Brewfile
+
