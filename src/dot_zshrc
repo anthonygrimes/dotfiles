@@ -10,7 +10,6 @@ plugins=(gpg-agent ssh-agent)
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias bu="brew update && brew upgrade"
 alias e="exit"
 alias cat='bat'
 alias ls='lsd'
