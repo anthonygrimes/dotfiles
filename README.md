@@ -11,6 +11,7 @@ This project manages the following:
 - 1Password ssh key vault
 - Tasks via taskfile
 - Claude settings
+- Homebrew
 
 ### Prerequisites
 
